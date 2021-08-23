@@ -61,21 +61,21 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙚𝙮 𝙩𝙝𝙚𝙧𝙚! 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙄𝙨 **Rose bot 🌹**. 
+👋Hey Ther! My Name Is **Shocker**. 
 
-𝙄 𝙘𝙖𝙣 𝙝𝙚𝙡𝙥 𝙢𝙖𝙣𝙖𝙜𝙚 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙬𝙞𝙩𝙝 𝙪𝙨𝙚𝙛𝙪𝙡 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨, 𝙛𝙚𝙚𝙡 𝙛𝙧𝙚𝙚 𝙩𝙤 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨!
-𝗽𝗿𝗼𝗺𝗼𝘁𝗲 𝗺𝗲 𝗮𝘀 **𝗔𝗱𝗺𝗶𝗻** 𝘁𝗼 𝗹𝗲𝘁 𝗺𝗲 𝗴𝗲𝘁 𝗶𝗻 𝗮𝗰𝘁𝗶𝗼𝗻!
+I Am Powerfull Group Mannager Bot🎈 I Can Help Manage Your Group UseFull Futures, Feel Free To Add Me To Your Group🎉!
+Pramote Me To Admin..⚡!
 
-❓ **𝗪𝗛𝗔𝗧 𝗔𝗥𝗘 𝗧𝗛𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦?** ❓
-𝗣𝗿𝗲𝘀𝘀  /help   𝘁𝗼 𝘀𝗲𝗲 **𝗮𝗹𝗹 𝘁𝗵𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀** 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸!
+⚡See A My Commands Send /help Command ⚡
+A This Bot Mantained By DR Bots🔭!
 """
 
 HELP_STRINGS = f"""
-*Rose Help Menu*
+*Welcome To Shocker help Menu*
 
-𝕴'𝖒 𝕽𝖔𝖘𝖊 𝖇𝖔𝖙 🇱🇰
+I Am Shocker group manager bot 🇱🇰
 
-𝑻𝒉𝒆 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒇𝒖𝒏𝒄𝒕𝒊𝒐𝒏𝒔 𝒘𝒊𝒍𝒍 𝒉𝒆𝒍𝒑𝒇𝒖𝒍 𝒕𝒐 𝒚𝒐𝒖 𝒕𝒐 𝒎𝒂𝒏𝒂𝒈𝒆 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑🙂
+Follow This function To Mannage your Group🙂
 
 """.format(
     dispatcher.bot.first_name,
@@ -86,28 +86,27 @@ HELP_STRINGS = f"""
 DONATE_STRING = """
 𝑯𝒆𝒚𝒂, 𝒈𝒍𝒂𝒅 𝒕𝒐 𝒉𝒆𝒂𝒓 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒅𝒐𝒏𝒂𝒕𝒆!
 𝒀𝒐𝒖 𝒄𝒂𝒏 𝒅𝒐𝒏𝒂𝒕𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒐𝒓𝒊𝒈𝒊𝒏𝒂𝒍 𝒘𝒓𝒊𝒕𝒆𝒓'𝒔 𝒐𝒇 𝒕𝒉𝒆 𝑩𝒂𝒔𝒆 𝒄𝒐𝒅𝒆,
-𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [OMINDA DILSHAN](https://t.me/omindas)
 """
 
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
-    ],
+            text="➕️ Add Me to Your Group ➕", url=f"https://t.me/DR_Shocker_bot?startgroup=true")
     [
-        InlineKeyboardButton(text="📢 𝐜𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/sl_bot_zone"),
+        InlineKeyboardButton(text="🎈Developer🎈", url=f"https://t.me/omindas"),
         InlineKeyboardButton(
-            text="💬 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/slbotzone"
+            text="💬 Support", url=f"https://t.me/sdbotworld"
         ),
     ],
     [
-        InlineKeyboardButton(text=" 𝐌𝐨𝐫𝐞 ", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="🎲More🎲 ", callback_data="aboutmanu_"),
         InlineKeyboardButton(
-            text="❗️𝐈𝐧𝐟𝐨 & 𝐀𝐛𝐨𝐮𝐭 ♻️", callback_data="aboutmanu_"
+            text="⚡About Menu⚡", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text=" ❗️ 𝗛𝗲𝗹𝗽 & 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="🔭My Commands🔭", callback_data="help_back"),
     ],
 ]
 IMPORTED = {}
@@ -363,20 +362,20 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="⚡️ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫", url= "http://t.me/supunma"
+                            text="⚡️Developer", url= "http://t.me/omindas"
                         ),
                         InlineKeyboardButton(
-                            text="𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐞🥺", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                            tex"Support me🥺", url="https://sdbotworld"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🚀 𝐅𝐫𝐞𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url= "https://t.me/FreeNetSL"
+                            text="💠Group💠", url= "https://t.me/sdbotworld"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🚀 𝐅𝐫𝐞𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐟𝐢𝐥𝐞", switch_inline_query_current_chat=""
+                            text="📡Free internet search📡", switch_inline_query_current_chat=""
                         )
                     ],
                     [InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_back")],
@@ -395,7 +394,7 @@ def DewmiBot_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ 𝐁𝐀𝐒𝐈𝐂 𝐇𝐄𝐋𝐏 」*"
             f"\n\n⭕️ 𝙄𝙛 𝙔𝙤𝙪 𝘾𝙖𝙣 𝘼𝙡𝙨𝙤 𝘼𝙙𝙙 {𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙛𝙞𝙧𝙨𝙩_𝙣𝙖𝙢𝙚} 𝙏𝙤 𝙔𝙤𝙪𝙧 𝘾𝙝𝙖𝙩𝙨 𝘽𝙮 𝘾𝙡𝙞𝙘𝙠𝙞𝙣𝙜 [𝙃𝙚𝙧𝙚](𝙝𝙩𝙩𝙥://𝙩.𝙢𝙚/{𝙙𝙞𝙨𝙥𝙖𝙩𝙘𝙝𝙚𝙧.𝙗𝙤𝙩.𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚}?𝙨𝙩𝙖𝙧𝙩𝙜𝙧𝙤𝙪𝙥=𝙩𝙧𝙪𝙚) 𝘼𝙣𝙙 𝙎𝙚𝙡𝙚𝙘𝙩𝙞𝙣𝙜 𝘾𝙝𝙖𝙩. \𝙣"
-            f"\n\n⭕️ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐠𝐞𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 {𝐝𝐢𝐬𝐩𝐚𝐭𝐜𝐡𝐞𝐫.𝐛𝐨𝐭.𝐟𝐢𝐫𝐬𝐭_𝐧𝐚𝐦𝐞} 𝐛𝐲 𝐣𝐨𝐢𝐧𝐢𝐧𝐠 [𝐒𝐋 𝐓𝐞𝐜𝐡 𝐙𝐨𝐧𝐞](𝐡𝐭𝐭𝐩𝐬://𝐭.𝐦𝐞/𝐬𝐥𝐭𝐞𝐜𝐡𝐳𝐨𝐧𝐞).\𝐧"
+            f"\n\n⭕️ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐠𝐞𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 {𝐝𝐢𝐬𝐩𝐚𝐭𝐜𝐡𝐞𝐫.𝐛𝐨𝐭.𝐟𝐢𝐫𝐬𝐭_𝐧𝐚𝐦𝐞} 𝐛𝐲 𝐣𝐨𝐢𝐧𝐢𝐧𝐠 [𝐃𝐑 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬](𝐡𝐭𝐭𝐩𝐬://𝐭.𝐦𝐞/𝐬𝐝𝐛𝐨𝐭𝐰𝐨𝐫𝐥𝐝).\𝐧"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -416,7 +415,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} 𝗜𝘀 𝘁𝗵𝗲 𝗿𝗲𝗱𝗶𝘀𝗶𝗴𝗻𝗲𝗱 𝘃𝗲𝗿𝘀𝗶𝗼𝗻 𝗼𝗳 𝗦𝗲𝗻𝗸𝘂𝗥𝗼𝗯𝗼𝘁 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗯𝗲𝘀𝘁 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲.*"
-            f"\n\n{dispatcher.bot.first_name}'s 𝒔𝒐𝒖𝒓𝒄𝒆 𝒄𝒐𝒅𝒆 𝒘𝒂𝒔 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒅 𝑩𝒚 [GD Hiruna](https://t.me/hirunaofficial)𝐃𝐞𝐩𝐥𝐨𝐲 𝐛𝐲 [supun](https://t.me/supunma)"
+            f"\n\n{dispatcher.bot.first_name}'s 𝒔𝒐𝒖𝒓𝒄𝒆 𝒄𝒐𝒅𝒆 𝒘𝒂𝒔 𝑫𝒆𝒗𝒐𝒍𝒐𝒑𝒆𝒅 𝑩𝒚 [GD Hiruna](https://t.me/hirunaofficial)𝐃𝐞𝐩𝐥𝐨𝐲 𝐛𝐲 [Ominda](https://t.me/omindas)"
             f"\n\n𝑰𝒇 𝑨𝒏𝒚 𝑸𝒖𝒆𝒔𝒕𝒊𝒐𝒏 𝑨𝒃𝒐𝒖𝒕 {𝒅𝒊𝒔𝒑𝒂𝒕𝒄𝒉𝒆𝒓.𝒃𝒐𝒕.𝒇𝒊𝒓𝒔𝒕_𝒏𝒂𝒎𝒆}, 𝑳𝒆𝒕 𝑼𝒔 𝑲𝒏𝒐𝒘 𝑨𝒕 @{𝑺𝑼𝑷𝑷𝑶𝑹𝑻_𝑪𝑯𝑨𝑻}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
